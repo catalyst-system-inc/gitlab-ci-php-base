@@ -1,0 +1,10 @@
+﻿# dynamically generated files
+/log/*
+/file/*
+/tmp/*
+.idea
+*~
+*.bak
+# hidden files created by Windows
+Thumbs.db
+desktop.ini
