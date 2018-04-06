@@ -48,7 +48,7 @@ RUN cd /tmp && \
   curl -fsSL https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}.tar.gz > nodejs-src.tar.gz && \
   tar xf nodejs-src.tar.gz && \
   cd node-v${NODE_VERSION} && \
-  ./configure--silent --prefix=/usr && \
+  ./configure --silent --prefix=/usr && \
   make --silent -j`getconf _NPROCESSORS_ONLN` && \
   make --silent install
 RUN rm -rf /tmp/*
