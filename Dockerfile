@@ -80,7 +80,6 @@ RUN { \
   echo 'opcache.revalidate_freq=60'; \
   echo 'opcache.fast_shutdown=1'; \
   echo 'xdebug.remote_enable=1'; \
-  echo 'extension=grpc.so'; \
   } > /usr/local/etc/php/conf.d/overrides.ini
 
 # Composer
